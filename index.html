@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ValStats</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<div class="navbar">
+    <div class="logo">
+        <img src="images/valstats.png" alt="ValStats Logo">
+    </div>
+
+    <ul class="nav-links">
+        <li>Stats</li>
+        <li>Agents</li>
+        <li>Lineups</li>
+        <li>News</li>
+    </ul>
+</div>
+
+<!-- HERO BACKGROUND SECTION -->
+<div class="hero">
+
+    <video autoplay muted loop playsinline class="hero-video">
+        <source src="files/website_bg_vid.mp4" type="video/mp4">
+    </video>
+
+    <div class="hero-overlay"></div>
+
+    <!-- HERO CONTENT (NEWS ONLY INSIDE HERO) -->
+    <div class="container">
+
+        <h2>Latest News</h2>
+
+        <div class="news">
+            <div class="news-card">
+                <img src="images/patch1207.png" alt="">
+                <p>VALORANT Patch Notes 12.07</p>
+            </div>
+
+            <div class="news-card">
+                <img src="images/patch1206.png" alt="">
+                <p>VALORANT Patch Notes 12.06</p>
+            </div>
+
+            <div class="news-card">
+                <img src="images/patch1205.png" alt="">
+                <p>VALORANT Patch Notes 12.05</p>
+            </div>
+        </div>
+
+    </div>
+
+</div> <!-- ✅ THIS WAS MISSING (CRITICAL FIX) -->
+
+<!-- PANELS (NOW OUTSIDE HERO) -->
+<div class="container">
+
+    <div class="panels">
+
+        <!-- AGENT STATS -->
+        <div class="panel">
+            <h3>Valorant Agent Stats</h3>
+
+            <div class="content">
+
+                <div class="table-header">
+                    <span>Agent</span>
+                    <span>Win %</span>
+                    <span>Pick %</span>
+                    <span>KDA</span>
+                </div>
+
+                <div class="agent-list">
+                    <div class="agent"><img src="agent1.png" alt=""></div>
+                    <div class="agent"><img src="agent2.png" alt=""></div>
+                    <div class="agent"><img src="agent3.png" alt=""></div>
+                    <div class="agent"><img src="agent4.png" alt=""></div>
+                </div>
+
+            </div>
+
+            <button class="btn">View All Agent Stats</button>
+        </div>
+
+        <!-- LINEUPS -->
+        <div class="panel">
+            <h3>Agent Lineups</h3>
+
+            <div class="content">
+
+                <div class="lineup">
+                    <div class="lineup-box"></div>
+                    <span>Lineup A</span>
+                </div>
+
+                <div class="lineup">
+                    <div class="lineup-box"></div>
+                    <span>Lineup B</span>
+                </div>
+
+                <div class="lineup">
+                    <div class="lineup-box"></div>
+                    <span>Lineup C</span>
+                </div>
+
+            </div>
+
+            <button class="btn">View All Agent Lineups</button>
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
