@@ -54,7 +54,7 @@ body {
 /* NAVBAR */
 .navbar {
     width: 100%;
-    background-color: #1e1c1c;
+    background-color: #121212;
     position: relative;
     z-index: 1000;
 }
@@ -281,7 +281,7 @@ h2 {
     .nav-links {
         justify-content: center;
         flex: unset;
-        gap: 25px; /* slightly tighter spacing on mobile */
+        gap: 25px;
         flex-wrap: wrap;
     }
 }
