@@ -1,0 +1,101 @@
+/* PAGE WRAPPER */
+.page-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+/* HEADER */
+.agents-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+    gap: 20px;
+}
+
+/* SEARCH */
+.agent-search {
+    flex: 1;
+    padding: 12px 16px;
+    border-radius: 10px;
+    border: none;
+    background: #1c1c1c;
+    color: white;
+}
+
+/* ROLE FILTERS */
+.role-filters {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.role-btn {
+    background: #1c1c1c;
+    color: #ddd;
+    border: none;
+    padding: 10px 14px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.role-btn:hover {
+    background: #fd2537;
+    color: white;
+}
+
+/* GRID — THIS IS THE MAIN FIX */
+.agents-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+/* AGENT CARD (BIG IMAGE TILE) */
+.agent-card {
+    position: relative;
+    height: 320px;              
+    border-radius: 18px;
+    overflow: hidden;
+    background: #1c1c1c;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.agent-card:hover {
+    transform: translateY(-5px);
+}
+
+/* IMAGE fills entire tile */
+.agent-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;         
+}
+
+/* NAME OVERLAY */
+.agent-card h4 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 12px;
+    text-align: center;
+
+    background: linear-gradient(
+        to top,
+        rgba(0,0,0,0.85),
+        transparent
+    );
+
+    color: white;
+    font-weight: 600;
+}
+
+/* RESPONSIVE TWEAKS */
+@media (max-width: 600px) {
+    .agents-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

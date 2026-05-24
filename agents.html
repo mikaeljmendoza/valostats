@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agents - ValStats</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/agents.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<div class="navbar">
+    <div class="inner-navbar">
+
+        <div class="logo">
+            <a href="index.html">
+                <img src="images/valstats.png" alt="ValStats Logo">
+            </a>
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="stats.html">Stats</a></li>
+            <li><a href="agents.html">Agents</a></li>
+            <li><a href="lineups.html">Lineups</a></li>
+            <li><a href="news.html">News</a></li>
+        </ul>
+
+    </div>
+</div>
+
+<div class="page-content">
+
+    <!-- HEADER CONTROLS -->
+    <div class="agents-header">
+
+        <input type="text" id="searchInput" class="agent-search" placeholder="Search agents...">
+
+        <div class="role-filters">
+            <button class="role-btn active" data-role="All">All</button>
+            <button class="role-btn" data-role="Duelist">Duelist</button>
+            <button class="role-btn" data-role="Controller">Controller</button>
+            <button class="role-btn" data-role="Initiator">Initiator</button>
+            <button class="role-btn" data-role="Sentinel">Sentinel</button>
+        </div>
+
+    </div>
+
+    <!-- AGENTS GRID -->
+    <div class="agents-grid">
+
+        <div class="agent-card" data-name="Astra" data-role="Controller">
+            <img src="images/agent banners/astra.png">
+            <h4>Astra</h4>
+        </div>
+        <div class="agent-card" data-name="Breach" data-role="Initiator">
+            <img src="images/agent banners/breach.png">
+            <h4>Breach</h4>
+        </div>
+        <div class="agent-card" data-name="Brimstone" data-role="Controller">
+            <img src="images/agent banners/brimstone.png">
+            <h4>Brimstone</h4>
+        </div>
+        <div class="agent-card" data-name="Chamber" data-role="Sentinel">
+            <img src="images/agent banners/chamber.png">
+            <h4>Chamber</h4>
+        </div>
+        <div class="agent-card" data-name="Clove" data-role="Controller">
+            <img src="images/agent banners/clove.webp">
+            <h4>Clove</h4>
+        </div>
+        <div class="agent-card" data-name="Cypher" data-role="Sentinel">
+            <img src="images/agent banners/cypher.png">
+            <h4>Cypher</h4>
+        </div>
+        <div class="agent-card" data-name="Deadlock" data-role="Sentinel">
+            <img src="images/agent banners/deadlock.webp">
+            <h4>Deadlock</h4>
+        </div>
+        <div class="agent-card" data-name="Fade" data-role="Initiator">
+            <img src="images/agent banners/fade.png">
+            <h4>Fade</h4>
+        </div>
+        <div class="agent-card" data-name="Gekko" data-role="Initiator">
+            <img src="images/agent banners/gekko.webp">
+            <h4>Gekko</h4>
+        </div>
+        <div class="agent-card" data-name="Harbor" data-role="Controller">
+            <img src="images/agent banners/harbor.webp">
+            <h4>Harbor</h4>
+        </div>
+        <div class="agent-card" data-name="Iso" data-role="Duelist">
+            <img src="images/agent banners/iso.webp">
+            <h4>Iso</h4>
+        </div>
+        <div class="agent-card" data-name="Jett" data-role="Duelist">
+            <img src="images/agent banners/jett.png">
+            <h4>Jett</h4>
+        </div>
+        <div class="agent-card" data-name="KAY/O" data-role="Initiator">
+            <img src="images/agent banners/kayo.png">
+            <h4>KAY/O</h4>
+        </div>
+        <div class="agent-card" data-name="Killjoy" data-role="Sentinel">
+            <img src="images/agent banners/killjoy.png">
+            <h4>Killjoy</h4>
+        </div>
+        <div class="agent-card" data-name="Miks" data-role="Controller">
+            <img src="images/agent banners/miks.webp">
+            <h4>Miks</h4>
+        </div>
+        <div class="agent-card" data-name="Neon" data-role="Duelist">
+            <img src="images/agent banners/neon.png">
+            <h4>Neon</h4>
+        </div>
+        <div class="agent-card" data-name="Omen" data-role="Controller">
+            <img src="images/agent banners/omen.png">
+            <h4>Omen</h4>
+        </div>
+        <div class="agent-card" data-name="Phoenix" data-role="Duelist">
+            <img src="images/agent banners/phoenix.png">
+            <h4>Phoenix</h4>
+        </div>
+        <div class="agent-card" data-name="Raze" data-role="Duelist">
+            <img src="images/agent banners/raze.png">
+            <h4>Raze</h4>
+        </div>
+        <div class="agent-card" data-name="Reyna" data-role="Duelist">
+            <img src="images/agent banners/reyna.png">
+            <h4>Reyna</h4>
+        </div>
+        <div class="agent-card" data-name="Sage" data-role="Sentinel">
+            <img src="images/agent banners/sage.png">
+            <h4>Sage</h4>
+        </div>
+        <div class="agent-card" data-name="Skye" data-role="Initiator">
+            <img src="images/agent banners/skye.png">
+            <h4>Skye</h4>
+        </div>
+        <div class="agent-card" data-name="Sova" data-role="Initiator">
+            <img src="images/agent banners/sova.png">
+            <h4>Sova</h4>
+        </div>
+        <div class="agent-card" data-name="Tejo" data-role="Initiator">
+            <img src="images/agent banners/tejo.webp">
+            <h4>Tejo</h4>
+        </div>
+        <div class="agent-card" data-name="Veto" data-role="Sentinel">
+            <img src="images/agent banners/veto.png">
+            <h4>Veto</h4>
+        </div>
+        <div class="agent-card" data-name="Viper" data-role="Controller">
+            <img src="images/agent banners/viper.png">
+            <h4>Viper</h4>
+        </div>
+        <div class="agent-card" data-name="Vyse" data-role="Sentinel">
+            <img src="images/agent banners/vyse.webp">
+            <h4>Vyse</h4>
+        </div>
+        <div class="agent-card" data-name="Waylay" data-role="Duelist">
+            <img src="images/agent banners/waylay.webp">
+            <h4>Waylay</h4>
+        </div>
+        <div class="agent-card" data-name="Yoru" data-role="Duelist">
+            <img src="images/agent banners/yoru.png">
+            <h4>Yoru</h4>
+        </div>
+
+    </div>
+</div>
+
+<footer class="footer">
+    <div class="footer-content">
+        <img
+            src="images/valstats.png"
+            alt="ValStats Logo"
+            class="footer-logo"
+        >
+        <p>Website created for DECO1400 by Michael Mendoza</p>
+        <p>© 2026 ValStats. All rights reserved.</p>
+    </div>
+</footer>
+
+<script src="js/agents.js"></script>
+
+</body>
+</html>

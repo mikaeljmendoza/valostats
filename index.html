@@ -14,116 +14,118 @@
 <!-- NAVBAR -->
 <div class="navbar">
     <div class="inner-navbar">
-
         <div class="logo">
             <a href="index.html"> 
                 <img src="images/valstats.png" alt="ValStats Logo">
             </a>
         </div>
-
         <ul class="nav-links">
-            <li>Stats</li>
-            <li>Agents</li>
-            <li>Lineups</li>
-            <li>News</li>
+            <li><a href="stats.html">Stats</a></li>
+            <li><a href="agents.html">Agents</a></li>
+            <li><a href="lineups.html">Lineups</a></li>
+            <li><a href="news.html">News</a></li>
         </ul>
     </div>
 </div>
 
-<!-- HERO BACKGROUND SECTION -->
-<div class="hero">
 
-    <video autoplay muted loop playsinline class="hero-video">
-        <source src="files/website_bg_vid.mp4" type="video/mp4">
-    </video>
+<div class="page-content">
+    <!-- HERO BACKGROUND SECTION -->
+    <div class="hero">
 
-    <div class="hero-overlay"></div>
+        <video autoplay muted loop playsinline class="hero-video">
+            <source src="files/website_bg_vid.mp4" type="video/mp4">
+        </video>
 
-    <!-- HERO CONTENT (NEWS ONLY INSIDE HERO) -->
+        <div class="hero-overlay"></div>
+
+        <!-- HERO CONTENT (NEWS ONLY INSIDE HERO) -->
+        <div class="container">
+            <h2>Latest News</h2>
+            <div class="news">
+
+                <div class="news-card">
+                    <img src="images/patch1207.png" alt="">
+                    <p>VALORANT Patch Notes 12.07</p>
+                </div>
+
+                <div class="news-card">
+                    <img src="images/patch1206.png" alt="">
+                    <p>VALORANT Patch Notes 12.06</p>
+                </div>
+
+                <div class="news-card">
+                    <img src="images/patch1205.png" alt="">
+                    <p>VALORANT Patch Notes 12.05</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- PANELS (NOW OUTSIDE HERO) -->
     <div class="container">
+        <div class="panels">
+            <!-- AGENT STATS -->
+            <div class="panel">
+                <h3>Valorant Agent Stats</h3>
+                <div class="content">
 
-        <h2>Latest News</h2>
+                    <div class="table-header">
+                        <span>Agent</span>
+                        <span>Win Rate</span>
+                        <span>K/D</span>
+                        <span>ACS</span>
+                    </div>
 
-        <div class="news">
-            <div class="news-card">
-                <img src="images/patch1207.png" alt="">
-                <p>VALORANT Patch Notes 12.07</p>
+                    <div class="agent-list" id="homeAgentList"></div>
+                </div>
+
+                <a href="stats.html">
+                    <button class="btn">View All Agent Stats</button>
+                </a>      
             </div>
 
-            <div class="news-card">
-                <img src="images/patch1206.png" alt="">
-                <p>VALORANT Patch Notes 12.06</p>
-            </div>
+            <!-- LINEUPS -->
+            <div class="panel">
+                <h3>Agent Lineups</h3>
+                <div class="content">
 
-            <div class="news-card">
-                <img src="images/patch1205.png" alt="">
-                <p>VALORANT Patch Notes 12.05</p>
+                    <div class="lineup">
+                        <div class="lineup-box"></div>
+                        <span>Lineup A</span>
+                    </div>
+
+                    <div class="lineup">
+                        <div class="lineup-box"></div>
+                        <span>Lineup B</span>
+                    </div>
+
+                    <div class="lineup">
+                        <div class="lineup-box"></div>
+                        <span>Lineup C</span>
+                    </div>
+                </div>
+                <button class="btn">View All Agent Lineups</button>
             </div>
         </div>
-
     </div>
-
 </div>
 
-<!-- PANELS (NOW OUTSIDE HERO) -->
-<div class="container">
-
-    <div class="panels">
-
-        <!-- AGENT STATS -->
-        <div class="panel">
-            <h3>Valorant Agent Stats</h3>
-
-            <div class="content">
-
-                <div class="table-header">
-                    <span>Agent</span>
-                    <span>Win %</span>
-                    <span>Pick %</span>
-                    <span>KDA</span>
-                </div>
-
-                <div class="agent-list">
-                    <div class="agent"><img src="agent1.png" alt=""></div>
-                    <div class="agent"><img src="agent2.png" alt=""></div>
-                    <div class="agent"><img src="agent3.png" alt=""></div>
-                    <div class="agent"><img src="agent4.png" alt=""></div>
-                </div>
-
-            </div>
-
-            <button class="btn">View All Agent Stats</button>
-        </div>
-
-        <!-- LINEUPS -->
-        <div class="panel">
-            <h3>Agent Lineups</h3>
-
-            <div class="content">
-
-                <div class="lineup">
-                    <div class="lineup-box"></div>
-                    <span>Lineup A</span>
-                </div>
-
-                <div class="lineup">
-                    <div class="lineup-box"></div>
-                    <span>Lineup B</span>
-                </div>
-
-                <div class="lineup">
-                    <div class="lineup-box"></div>
-                    <span>Lineup C</span>
-                </div>
-
-            </div>
-
-            <button class="btn">View All Agent Lineups</button>
-        </div>
-
+<footer class="footer">
+    <div class="footer-content">
+        <img
+            src="images/valstats.png"
+            alt="ValStats Logo"
+            class="footer-logo"
+        >
+        <p>Website created for DECO1400 by Michael Mendoza</p>
+        <p>© 2026 ValStats. All rights reserved.</p>
     </div>
+</footer>
 
-</div>
+<script src="js/data.js"></script>
+<script src="js/home.js"></script>
 
 </body>
 </html>

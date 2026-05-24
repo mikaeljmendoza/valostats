@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: #121212;
+    color: #fff;
+}
+
+.navbar {
+    width: 100%;
+}
+
+.container,
+.stats-filters,
+.stats-table,
+.stats-hero-content {
+    max-width: 1100px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+/* =========================
+   HERO
+========================= */
+
+.stats-hero {
+    position: relative;
+    padding: 100px 20px 80px;
+    overflow: hidden;
+}
+
+.stats-overlay {
+    position: absolute;
+    inset: 0;
+
+    background:
+        radial-gradient(circle at top, rgba(253,37,55,0.18), transparent 60%);
+
+    z-index: 0;
+}
+
+.stats-hero-content {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+
+.stats-hero h1 {
+    font-size: 64px;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.stats-hero p {
+    color: #bdbdbd;
+    margin-bottom: 40px;
+    font-size: 18px;
+}
+
+/* =========================
+   FILTERS
+========================= */
+
+.stats-filters {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 20px auto;
+}
+
+.stats-filters input,
+.stats-filters select {
+    background-color: #242424;
+    border: 1px solid #3a3a3a;
+    color: white;
+
+    padding: 14px 18px;
+    border-radius: 14px;
+
+    min-width: 220px;
+    font-size: 15px;
+}
+
+.stats-filters input:focus,
+.stats-filters select:focus {
+    outline: none;
+    border-color: #fd2537;
+}
+
+/* =========================
+   TABLE CONTAINER
+========================= */
+
+.stats-table {
+    background-color: #1d1d1d;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+/* =========================
+   GRID STRUCTURE
+   rank | name | win | pick | kd | acs | matches
+========================= */
+
+.stats-table-header,
+.stats-table-row {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1.5fr 1.5fr 1.5fr 1.5fr 1.5fr;
+    align-items: center;
+
+    padding: 14px 18px;
+}
+
+/* HEADER */
+.stats-table-header {
+    background-color: #252525;
+    font-weight: 600;
+    color: #bdbdbd;
+    font-size: 13px;
+}
+
+/* ROWS */
+.stats-table-row {
+    border-top: 1px solid #2b2b2b;
+    font-size: 13px;
+    transition: 0.2s ease;
+}
+
+.stats-table-row:hover {
+    background: rgba(255, 70, 85, 0.08);
+}
+
+/* =========================
+   SORT HEADER INTERACTION
+========================= */
+
+.stats-table-header span {
+    cursor: pointer;
+    user-select: none;
+    transition: 0.2s;
+}
+
+.stats-table-header span:hover {
+    color: #ff4655;
+}
+
+.stats-table-header span[data-key="rank"] {
+    cursor: default;
+    color: inherit; /* keeps it from changing color */
+}
+
+/* prevent hover effect only for rank */
+.stats-table-header span[data-key="rank"]:hover {
+    color: inherit;
+    background: transparent;
+}
+
+/* =========================
+   AGENT COLUMN
+========================= */
+
+.agent-name {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.agent-name img {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+}
+
+/* =========================
+   OPTIONAL: NUMBER FORMATTING ALIGNMENT
+========================= */
+
+.stats-table-row span,
+.stats-table-row .agent-name span {
+    font-size: 16px;   /* increase as needed */
+    font-weight: 450;  /* semi-bold */
+}
+
+
+/* =========================
+   HERO RESPONSIVE
+========================= */
+
+@media (max-width: 768px) {
+
+    .stats-hero h1 {
+        font-size: 42px;
+    }
+
+    .navbar,
+    .stats-filters,
+    .stats-table,
+    .stats-hero {
+        width: 95%;
+    }
+
+    .stats-table-header,
+    .stats-table-row {
+        grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1.2fr;
+        font-size: 12px;
+    }
+
+    .agent-name img {
+        width: 28px;
+        height: 28px;
+    }
+}

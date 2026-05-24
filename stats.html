@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ValStats - Stats</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/stats.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"rel="stylesheet">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<div class="navbar">
+    <div class="inner-navbar">
+        <div class="logo">
+            <a href="index.html">
+                <img
+                    src="images/valstats.png"
+                    alt="ValStats Logo"
+                >
+            </a>
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="stats.html">Stats</a></li>
+            <li><a href="agents.html">Agents</a></li>
+            <li><a href="lineups.html">Lineups</a></li>
+            <li><a href="news.html">News</a></li>
+        </ul>
+
+    </div>
+</div>
+
+<div class="page-content">
+
+    <section class="stats-hero">
+        <div class="stats-overlay"></div>
+        <div class="stats-hero-content">
+            <h1>VALORANT Agent Stats</h1>
+            <p>
+                Track win rates, pick rates, K/D ratios, ACS, and match data
+                across every VALORANT act.
+            </p>
+        </div>
+
+    </section>
+
+    <!-- FILTERS -->
+    <div class="stats-filters">
+
+        <input id="searchInput" type="text" placeholder="Search Agent">
+
+        <select id="actFilter">
+            <option value="V26 - Act 3">V26 - Act 3</option>
+            <option value="V26 - Act 2">V26 - Act 2</option>
+            <option value="V26 - Act 1">V26 - Act 1</option>
+        </select>
+
+    </div>
+
+    <!-- TABLE -->
+    <div class="stats-table">
+
+        <div class="stats-table-header">
+            <span data-key="rank">Rank</span>
+            <span data-key="name" data-label="Agent">Agent</span>
+            <span data-key="win" data-label="Win Rate">Win Rate</span>
+            <span data-key="pick" data-label="Pick Rate">Pick Rate</span>
+            <span data-key="kd" data-label="K/D">K/D</span>
+            <span data-key="acs" data-label="ACS">ACS</span>
+            <span data-key="matches" data-label="Matches">Matches</span>
+        </div>
+
+        <!-- JS injects rows here -->
+    </div>
+</div>
+
+<footer class="footer">
+    <div class="footer-content">
+        <img
+            src="images/valstats.png"
+            alt="ValStats Logo"
+            class="footer-logo"
+        >
+        <p>Website created for DECO1400 by Michael Mendoza</p>
+        <p>© 2026 ValStats. All rights reserved.</p>
+    </div>
+</footer>
+
+<script src="js/data.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>

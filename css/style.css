@@ -45,6 +45,23 @@ body {
     z-index: 1;
 }
 
+.page-content {
+    opacity: 0;
+    animation: pageFade 0.35s ease forwards;
+}
+
+@keyframes pageFade {
+    from {
+        opacity: 0;
+        transform: translateY(4px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 /* CONTENT ABOVE VIDEO */
 .hero .container {
     position: relative;
@@ -100,22 +117,44 @@ body {
 
     margin: 0;
     padding: 0;
-    
+
     flex: 1;
     justify-content: flex-end;
-    
 }
 
 .nav-links li {
-    cursor: pointer;
-    color: #ddd;
-    font-weight: 500;
-    transition: color 0.2s ease;
-    font-size: 18px;
+    list-style: none;
 }
 
-.nav-links li:hover {
+.nav-links a {
+    cursor: pointer;
+
+    color: #ddd;
+    font-weight: 500;
+    font-size: 18px;
+
+    text-decoration: none;
+
+    transition:
+        color 0.2s ease,
+
+    display: inline-block;
+}
+
+/* REMOVE PURPLE VISITED LINKS */
+.nav-links a:visited {
+    color: #ddd;
+}
+
+/* HOVER EFFECT */
+.nav-links a:hover {
     color: #ffffff;
+    transform: translateY(-2px);
+}
+
+/* OPTIONAL ACTIVE CLICK EFFECT */
+.nav-links a:active {
+    transform: translateY(0);
 }
 
 /* CONTAINER */
@@ -195,7 +234,8 @@ h2 {
     display: grid;
     grid-template-columns: 1.5fr 1fr 1fr 1fr;
     align-items: center;
-    width: 100%;
+    padding: 10px 15px;
+    font-weight: 500;
 }
 
 .table-header {
@@ -251,12 +291,43 @@ h2 {
     margin-top: 20px;
 
     font-weight: 600;
-    transition: all 0.25s ease;
+    transition: all 0.15s ease;
 }
 
 .btn:hover {
     box-shadow: 0 0 0 3px rgba(255,255,255,0.25);
     transform: translateY(-2px);
+}
+
+.footer {
+    margin-top: 80px;
+    border-top: 1px solid #2b2b2b;
+    background-color: #161616;
+}
+
+.footer-content {
+    width: 1100px;
+    margin: 0 auto;
+
+    padding: 40px 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    gap: 14px;
+}
+
+.footer-logo {
+    width: 180px;
+    height: auto;
+}
+
+.footer p {
+    color: #8f8f8f;
+    font-size: 14px;
+    font-weight: 500;
 }
 
 /* RESPONSIVE */
@@ -283,5 +354,14 @@ h2 {
         flex: unset;
         gap: 25px;
         flex-wrap: wrap;
+    }
+
+    .footer-content {
+        width: 95%;
+        text-align: center;
+    }
+
+    .footer-logo {
+        width: 150px;
     }
 }
