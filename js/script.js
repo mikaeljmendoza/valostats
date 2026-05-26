@@ -1,3 +1,6 @@
+/* -----------------------------
+   Default sort, stats automatically sorted by win rate (descending)
+------------------------------*/
 let sortState = {
     key: "win",
     direction: -1
@@ -9,19 +12,21 @@ const searchInput = document.querySelector("#searchInput");
 const actFilter = document.querySelector("#actFilter");
 const headers = document.querySelectorAll(".stats-table-header span");
 
-// DATA
+/* -----------------------------
+   Data for stats
+------------------------------*/
 const agents = agentData;
 
-// =======================
-// INIT
-// =======================
+/* -----------------------------
+   Rendering init
+------------------------------*/
 document.addEventListener("DOMContentLoaded", () => {
     renderTable();
 });
 
-// =======================
-// EVENTS
-// =======================
+/* -----------------------------
+   Events
+------------------------------*/
 searchInput.addEventListener("input", renderTable);
 actFilter.addEventListener("change", renderTable);
 
@@ -45,9 +50,9 @@ headers.forEach(header => {
     });
 });
 
-// =======================
-// FORMAT HELPERS
-// =======================
+/* -----------------------------
+   Formatting helpers
+------------------------------*/
 function formatNumber(value, decimals = 2) {
     return Number(value).toFixed(decimals);
 }
@@ -56,9 +61,9 @@ function formatInt(value) {
     return Number(value).toLocaleString();
 }
 
-// =======================
-// RENDER TABLE
-// =======================
+/* -----------------------------
+   Table render function
+------------------------------*/
 function renderTable() {
 
     let filtered = [...agents];
@@ -101,6 +106,7 @@ function renderTable() {
     const row = document.createElement("div");
     row.className = "stats-table-row";
 
+    // Initalise table with data
     row.innerHTML = `
         <span class="rank">${rank}</span>
 
@@ -120,9 +126,9 @@ function renderTable() {
     updateHeaderUI();
 }
 
-// =======================
-// HEADER UI
-// =======================
+/* -----------------------------
+   Header UI function (replace/adds arrows)
+------------------------------*/
 function updateHeaderUI() {
 
     headers.forEach(header => {

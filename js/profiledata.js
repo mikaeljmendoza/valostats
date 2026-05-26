@@ -60,7 +60,7 @@ const agents = [
     image: "images/agent headshots/chamber.png",
     abilities: {
         C: {name: "Trademark", desc: "PLACE a trap that scans for enemies. When a visible enemy comes in range, the trap counts down and then destabilizes the terrain around them, creating a lingering field that slows players caught inside of it.", video: "files/ability videos/chamber/cVideo.mp4", icon: "images/agent abilities/sentinels/chamber c.png"},
-        Q: {name: "Headhunter", desc: "ACTIVATE to equip a heavy pistol. ALT FIRE with the pistol equipped to aim down sights. You can have up to 8 bullets.", video: "files/ability videos/chamberharbor/qVideo.mp4", icon: "images/agent abilities/sentinels/chamber q.png"},
+        Q: {name: "Headhunter", desc: "ACTIVATE to equip a heavy pistol. ALT FIRE with the pistol equipped to aim down sights. You can have up to 8 bullets.", video: "files/ability videos/chamber/qVideo.mp4", icon: "images/agent abilities/sentinels/chamber q.png"},
         E: {name: "Rendezvous", desc: "PLACE a teleport anchor. While on the ground and in range of the anchor, REACTIVATE to quickly teleport to the anchor. The anchor can be picked up to be REDEPLOYED. After post-teleport lockout, you can immediately shoot.", video: "files/ability videos/chamber/eVideo.mp4", icon: "images/agent abilities/sentinels/chamber e.png"},
         X: {name: "Tour De Force", desc: "ACTIVATE to summon a powerful, custom sniper rifle that will kill an enemy with any direct hit. Killing an enemy creates a lingering field that slows players caught inside of it.", video: "files/ability videos/chamber/xVideo.mp4", icon: "images/agent abilities/sentinels/chamber x.png"}
     }
