@@ -1,8 +1,10 @@
+// All agent ability videos are taken from Blitz website (2026)
+
 const agents = [
 {
     name: "Astra",
     role: "Controller",
-    image: "images/agent headshots/astra.png",
+    image: "images/agent headshots/astra.png", // Riot Games, 2026
     abilities: {
         C: { name: "Gravity Well", desc: "Place Stars in Astral Form (X) ACTIVATE a Star to form a Gravity Well. Players in the area are pulled toward the center before it explodes, making all players still trapped inside fragile.", video: "files/ability videos/astra/cVideo.mp4", icon: "images/agent abilities/controllers/astra c.png" },
         Q: { name: "Nova Pulse", desc: "Place Stars in Astral Form (X) ACTIVATE a Star to detonate a Nova Pulse. The Nova Pulse charges briefly then strikes, concussing all players in its area.", video: "files/ability videos/astra/qVideo.mp4", icon: "images/agent abilities/controllers/astra q.png" },
@@ -13,7 +15,7 @@ const agents = [
 {
     name: "Brimstone",
     role: "Controller",
-    image: "images/agent headshots/brimstone.png",
+    image: "images/agent headshots/brimstone.png", // Riot Games, 2026
     abilities: {
         C: { name: "Stim Beacon", desc: "EQUIP a stim beacon. FIRE to toss the stim beacon in front of Brimstone. Upon landing, the stim beacon will create a field that grants players RapidFire.", video: "files/ability videos/brimstone/cVideo.mp4", icon: "images/agent abilities/controllers/brim c.png" },
         Q: { name: "Sky Smoke", desc: "EQUIP a tactical map. FIRE to set locations where Brimstone's smoke clouds will land. ALTERNATE FIRE to confirm, launching long-lasting smoke clouds that block vision in the selected area.", video: "files/ability videos/brimstone/qVideo.mp4", icon: "images/agent abilities/controllers/brim q.png" },
@@ -24,7 +26,7 @@ const agents = [
 {
     name: "Clove",
     role: "Controller",
-    image: "images/agent headshots/clove.webp",
+    image: "images/agent headshots/clove.webp", // Riot Games, 2026
     abilities: {
         C: {name: "Pick Me Up", desc: "INSTANTLY absorb the life force of a fallen enemy that Clove damaged or killed, gaining haste and temporary health.", video: "files/ability videos/clove/cVideo.mp4", icon: "images/agent abilities/controllers/clove c.png"},
         Q: {name: "Ruse", desc: "EQUIP to view the battlefield. FIRE to set the locations where Clove’s clouds (smoke) will settle. ALT FIRE to confirm, launching clouds that block vision in the chosen areas. Clove can use this ability after death.", video: "files/ability videos/clove/qVideo.mp4", icon: "images/agent abilities/controllers/clove q.png"},
@@ -35,7 +37,7 @@ const agents = [
 {
     name: "Harbor",
     role: "Controller",
-    image: "images/agent headshots/harbor.webp",
+    image: "images/agent headshots/harbor.webp", // Riot Games, 2026
     abilities: {
         C: {name: "Storm Surge", desc: "EQUIP Storm Surge. FIRE to throw, creating an explosive whirlpool that Nearsights and Slows enemies within it after a short duration.", video: "files/ability videos/harbor/cVideo.mp4", icon: "images/agent abilities/controllers/clove c.png"},
         Q: {name: "High Tide", desc: "EQUIP High Tide. FIRE to send water forward along the ground. HOLD FIRE to guide the water towards your crosshair spawning a vision blocking Screen along the path. ALT FIRE to stop the water early. All players crossing High Tide are Slowed.", video: "files/ability videos/harbor/qVideo.mp4", icon: "images/agent abilities/controllers/clove q.png"},
@@ -46,7 +48,7 @@ const agents = [
 {
     name: "Breach",
     role: "Initiator",
-    image: "images/agent headshots/breach.png",
+    image: "images/agent headshots/breach.png", // Riot Games, 2026
     abilities: {
         C: {name: "Aftershock", desc: "EQUIP a fusion charge. FIRE the charge to set a slow-acting burst through the wall. The burst does 80 damage to anyone caught in its area.", video: "files/ability videos/breach/cVideo.mp4", icon: "images/agent abilities/initiators/breach c.png"},
         Q: {name: "Flashpoint", desc: "EQUIP a blinding charge. FIRE the charge to set fast-acting burst through the wall. The charge detonates to blind all players looking at it.", video: "files/ability videos/breach/qVideo.mp4", icon: "images/agent abilities/initiators/breach q.png"},
@@ -57,7 +59,7 @@ const agents = [
 {
     name: "Chamber",
     role: "Sentinel",
-    image: "images/agent headshots/chamber.png",
+    image: "images/agent headshots/chamber.png", // Riot Games, 2026
     abilities: {
         C: {name: "Trademark", desc: "PLACE a trap that scans for enemies. When a visible enemy comes in range, the trap counts down and then destabilizes the terrain around them, creating a lingering field that slows players caught inside of it.", video: "files/ability videos/chamber/cVideo.mp4", icon: "images/agent abilities/sentinels/chamber c.png"},
         Q: {name: "Headhunter", desc: "ACTIVATE to equip a heavy pistol. ALT FIRE with the pistol equipped to aim down sights. You can have up to 8 bullets.", video: "files/ability videos/chamber/qVideo.mp4", icon: "images/agent abilities/sentinels/chamber q.png"},
@@ -68,7 +70,7 @@ const agents = [
 {
     name: "Iso",
     role: "Duelist",
-    image: "images/agent headshots/iso.webp",
+    image: "images/agent headshots/iso.webp", // Riot Games, 2026
     abilities: {
         C: {name: "Contingency", desc: "EQUIP to assemble prismatic energy. FIRE to push an indestructible wall of energy forward that blocks bullets.", video: "files/ability videos/iso/cVideo.mp4", icon: "images/agent abilities/duelists/iso c.png"},
         Q: {name: "Undercut", desc: "EQUIP a molecular bolt. Fire to throw it forward, applying a brief FRAGILE to all players it touches. The bolt can pass through solid objects, including walls.", video: "files/ability videos/iso/qVideo.mp4", icon: "images/agent abilities/duelists/iso q.png"},

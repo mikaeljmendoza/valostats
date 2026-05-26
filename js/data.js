@@ -1,7 +1,7 @@
 const agentData = [
     {
         "name": "Clove",
-        "image": "images/agent headshots/clove.webp",
+        "image": "images/agent headshots/clove.webp", // Riot Games, 2026
         "kd": 0.97,
         "win": 52.4,
         "pick": 7.5,
@@ -11,7 +11,7 @@ const agentData = [
     },
     {
         "name": "Sage",
-        "image": "images/agent headshots/sage.png",
+        "image": "images/agent headshots/sage.png", // Riot Games, 2026
         "kd": 0.97,
         "win": 51.5,
         "pick": 2.9,
@@ -21,7 +21,7 @@ const agentData = [
     },
     {
         "name": "Phoenix",
-        "image": "images/agent headshots/phoenix.png",
+        "image": "images/agent headshots/phoenix.png", // Riot Games, 2026
         "kd": 1.08,
         "win": 51.0,
         "pick": 5.5,
@@ -31,7 +31,7 @@ const agentData = [
     },
     {
         "name": "Killjoy",
-        "image": "images/agent headshots/killjoy.png",
+        "image": "images/agent headshots/killjoy.png", // Riot Games, 2026
         "kd": 1.04,
         "win": 50.5,
         "pick": 3.1,
@@ -41,7 +41,7 @@ const agentData = [
     },
     {
         "name": "Brimstone",
-        "image": "images/agent headshots/brimstone.png",
+        "image": "images/agent headshots/brimstone.png", // Riot Games, 2026
         "kd": 1.00,
         "win": 50.3,
         "pick": 1.7,
@@ -51,7 +51,7 @@ const agentData = [
     },
     {
         "name": "Fade",
-        "image": "images/agent headshots/fade.png",
+        "image": "images/agent headshots/fade.png", // Riot Games, 2026
         "kd": 0.97,
         "win": 50.2,
         "pick": 4.3,
@@ -61,7 +61,7 @@ const agentData = [
     },
     {
         "name": "Sova",
-        "image": "images/agent headshots/sova.png",
+        "image": "images/agent headshots/sova.png", // Riot Games, 2026
         "kd": 1.00,
         "win": 50.2,
         "pick": 6.4,
@@ -71,7 +71,7 @@ const agentData = [
     },
     {
         "name": "Neon",
-        "image": "images/agent headshots/neon.png",
+        "image": "images/agent headshots/neon.png", // Riot Games, 2026
         "kd": 1.00,
         "win": 50.1,
         "pick": 0.6,
@@ -81,7 +81,7 @@ const agentData = [
     },
     {
         "name": "Cypher",
-        "image": "images/agent headshots/cypher.png",
+        "image": "images/agent headshots/cypher.png", // Riot Games, 2026
         "kd": 1.03,
         "win": 50.1,
         "pick": 3.5,
@@ -91,7 +91,7 @@ const agentData = [
     },
     {
         "name": "Raze",
-        "image": "images/agent headshots/raze.png",
+        "image": "images/agent headshots/raze.png", // Riot Games, 2026
         "kd": 1.03,
         "win": 49.7,
         "pick": 4.1,
@@ -101,7 +101,7 @@ const agentData = [
     },
     {
         "name": "Deadlock",
-        "image": "images/agent headshots/deadlock.webp",
+        "image": "images/agent headshots/deadlock.webp", // Riot Games, 2026
         "kd": 1.01,
         "win": 49.7,
         "pick": 1.0,
@@ -111,7 +111,7 @@ const agentData = [
     },
     {
         "name": "Vyse",
-        "image": "images/agent headshots/vyse.webp",
+        "image": "images/agent headshots/vyse.webp", // Riot Games, 2026
         "kd": 1.05,
         "win": 49.6,
         "pick": 1.0,
@@ -121,7 +121,7 @@ const agentData = [
     },
     {
         "name": "Skye",
-        "image": "images/agent headshots/skye.png",
+        "image": "images/agent headshots/skye.png", // Riot Games, 2026
         "kd": 0.96,
         "win": 49.6,
         "pick": 3.4,
@@ -131,7 +131,7 @@ const agentData = [
     },
     {
         "name": "Gekko",
-        "image": "images/agent headshots/gekko.webp",
+        "image": "images/agent headshots/gekko.webp", // Riot Games, 2026
         "kd": 0.93,
         "win": 49.6,
         "pick": 1.0,
@@ -141,7 +141,7 @@ const agentData = [
     },
     {
         "name": "Jett",
-        "image": "images/agent headshots/jett.png",
+        "image": "images/agent headshots/jett.png", // Riot Games, 2026
         "kd": 1.06,
         "win": 49.4,
         "pick": 14.5,
@@ -151,7 +151,7 @@ const agentData = [
     },
     {
         "name": "Viper",
-        "image": "images/agent headshots/viper.png",
+        "image": "images/agent headshots/viper.png", // Riot Games, 2026
         "kd": 1.04,
         "win": 49.3,
         "pick": 1.1,
@@ -161,7 +161,7 @@ const agentData = [
     },
     {
         "name": "Veto",
-        "image": "images/agent headshots/veto.png",
+        "image": "images/agent headshots/veto.png", // Riot Games, 2026
         "kd": 1.06,
         "win": 49.1,
         "pick": 0.4,
@@ -171,7 +171,7 @@ const agentData = [
     },
     {
         "name": "Chamber",
-        "image": "images/agent headshots/chamber.png",
+        "image": "images/agent headshots/chamber.png", // Riot Games, 2026
         "kd": 1.11,
         "win": 49.1,
         "pick": 10.2,
@@ -181,7 +181,7 @@ const agentData = [
     },
     {
         "name": "Reyna",
-        "image": "images/agent headshots/reyna.png",
+        "image": "images/agent headshots/reyna.png", // Riot Games, 2026
         "kd": 1.07,
         "win": 49.0,
         "pick": 8.3,
@@ -191,7 +191,7 @@ const agentData = [
     },
     {
         "name": "Tejo",
-        "image": "images/agent headshots/tejo.webp",
+        "image": "images/agent headshots/tejo.webp", // Riot Games, 2026
         "kd": 0.97,
         "win": 48.8,
         "pick": 1.5,
@@ -201,7 +201,7 @@ const agentData = [
     },
     {
         "name": "Miks",
-        "image": "images/agent headshots/miks.webp",
+        "image": "images/agent headshots/miks.webp", // Riot Games, 2026
         "kd": 0.96,
         "win": 48.3,
         "pick": 4.5,
@@ -211,7 +211,7 @@ const agentData = [
     },
     {
         "name": "Astra",
-        "image": "images/agent headshots/astra.png",
+        "image": "images/agent headshots/astra.png", // Riot Games, 2026
         "kd": 1.05,
         "win": 48.2,
         "pick": 1.6,
@@ -221,7 +221,7 @@ const agentData = [
     },
     {
         "name": "Waylay",
-        "image": "images/agent headshots/waylay.webp",
+        "image": "images/agent headshots/waylay.webp", // Riot Games, 2026
         "kd": 1.00,
         "win": 47.9,
         "pick": 1.9,
@@ -231,7 +231,7 @@ const agentData = [
     },
     {
         "name": "Breach",
-        "image": "images/agent headshots/breach.png",
+        "image": "images/agent headshots/breach.png", // Riot Games, 2026
         "kd": 0.93,
         "win": 47.9,
         "pick": 2.3,
@@ -241,7 +241,7 @@ const agentData = [
     },
     {
         "name": "Iso",
-        "image": "images/agent headshots/iso.webp",
+        "image": "images/agent headshots/iso.webp", // Riot Games, 2026
         "kd": 1.03,
         "win": 47.8,
         "pick": 1.2,
@@ -251,7 +251,7 @@ const agentData = [
     },
     {
         "name": "Yoru",
-        "image": "images/agent headshots/yoru.png",
+        "image": "images/agent headshots/yoru.png", // Riot Games, 2026
         "kd": 1.02,
         "win": 47.4,
         "pick": 0.5,
@@ -261,7 +261,7 @@ const agentData = [
     },
     {
         "name": "Omen",
-        "image": "images/agent headshots/omen.png",
+        "image": "images/agent headshots/omen.png", // Riot Games, 2026
         "kd": 1.00,
         "win": 46.9,
         "pick": 4.4,
@@ -271,7 +271,7 @@ const agentData = [
     },
     {
         "name": "Harbor",
-        "image": "images/agent headshots/harbor.webp",
+        "image": "images/agent headshots/harbor.webp", // Riot Games, 2026
         "kd": 0.96,
         "win": 46.6,
         "pick": 0.5,
@@ -281,7 +281,7 @@ const agentData = [
     },
     {
         "name": "KAY/O",
-        "image": "images/agent headshots/kayo.png",
+        "image": "images/agent headshots/kayo.png", // Riot Games, 2026
         "kd": 0.94,
         "win": 46.0,
         "pick": 1.1,
@@ -291,7 +291,7 @@ const agentData = [
     },
     {
         "name": "Clove",
-        "image": "images/agent headshots/clove.webp",
+        "image": "images/agent headshots/clove.webp", // Riot Games, 2026
         "kd": 0.97,
         "win": 52.6,
         "pick": 5.9,
@@ -301,7 +301,7 @@ const agentData = [
     },
     {
         "name": "Sage",
-        "image": "images/agent headshots/sage.png",
+        "image": "images/agent headshots/sage.png", // Riot Games, 2026
         "kd": 0.97,
         "win": 51.3,
         "pick": 2.6,
@@ -311,7 +311,7 @@ const agentData = [
     },
     {
         "name": "Phoenix",
-        "image": "images/agent headshots/phoenix.png",
+        "image": "images/agent headshots/phoenix.png", // Riot Games, 2026
         "kd": 1.08,
         "win": 50.9,
         "pick": 3.6,
@@ -321,7 +321,7 @@ const agentData = [
     },
     {
         "name": "Killjoy",
-        "image": "images/agent headshots/killjoy.png",
+        "image": "images/agent headshots/killjoy.png", // Riot Games, 2026
         "kd": 1.04,
         "win": 50.3,
         "pick": 2.2,
@@ -331,7 +331,7 @@ const agentData = [
     },
     {
         "name": "Brimstone",
-        "image": "images/agent headshots/brimstone.png",
+        "image": "images/agent headshots/brimstone.png", // Riot Games, 2026
         "kd": 1.01,
         "win": 50.6,
         "pick": 1.8,
@@ -341,7 +341,7 @@ const agentData = [
     },
     {
         "name": "Fade",
-        "image": "images/agent headshots/fade.png",
+        "image": "images/agent headshots/fade.png", // Riot Games, 2026
         "kd": 0.97,
         "win": 50.3,
         "pick": 4.7,
@@ -351,7 +351,7 @@ const agentData = [
     },
     {
         "name": "Sova",
-        "image": "images/agent headshots/sova.png",
+        "image": "images/agent headshots/sova.png", // Riot Games, 2026
         "kd": 0.99,
         "win": 50.1,
         "pick": 4.8,
@@ -361,7 +361,7 @@ const agentData = [
     },
     {
         "name": "Neon",
-        "image": "images/agent headshots/neon.png",
+        "image": "images/agent headshots/neon.png", // Riot Games, 2026
         "kd": 0.98,
         "win": 50.3,
         "pick": 6.6,
@@ -371,7 +371,7 @@ const agentData = [
     },
     {
         "name": "Cypher",
-        "image": "images/agent headshots/cypher.png",
+        "image": "images/agent headshots/cypher.png", // Riot Games, 2026
         "kd": 1.03,
         "win": 50.1,
         "pick": 3.2,
@@ -381,7 +381,7 @@ const agentData = [
     },
     {
         "name": "Raze",
-        "image": "images/agent headshots/raze.png",
+        "image": "images/agent headshots/raze.png", // Riot Games, 2026
         "kd": 1.04,
         "win": 49.9,
         "pick": 4.4,
@@ -391,7 +391,7 @@ const agentData = [
     },
     {
         "name": "Deadlock",
-        "image": "images/agent headshots/deadlock.webp",
+        "image": "images/agent headshots/deadlock.webp", // Riot Games, 2026
         "kd": 1.01,
         "win": 49.7,
         "pick": 1.1,
@@ -401,7 +401,7 @@ const agentData = [
     },
     {
         "name": "Vyse",
-        "image": "images/agent headshots/vyse.webp",
+        "image": "images/agent headshots/vyse.webp", // Riot Games, 2026
         "kd": 1.05,
         "win": 49.6,
         "pick": 0.8,
@@ -411,7 +411,7 @@ const agentData = [
     },
     {
         "name": "Skye",
-        "image": "images/agent headshots/skye.png",
+        "image": "images/agent headshots/skye.png", // Riot Games, 2026 
         "kd": 0.96,
         "win": 49.6,
         "pick": 4.2,
@@ -421,7 +421,7 @@ const agentData = [
     },
     {
         "name": "Gekko",
-        "image": "images/agent headshots/gekko.webp",
+        "image": "images/agent headshots/gekko.webp", // Riot Games, 2026
         "kd": 0.94,
         "win": 49.6,
         "pick": 1.0,
@@ -431,7 +431,7 @@ const agentData = [
     },
     {
         "name": "Jett",
-        "image": "images/agent headshots/jett.png",
+        "image": "images/agent headshots/jett.png", // Riot Games, 2026
         "kd": 1.06,
         "win": 49.1,
         "pick": 12.0,
@@ -441,7 +441,7 @@ const agentData = [
     },
     {
         "name": "Viper",
-        "image": "images/agent headshots/viper.png",
+        "image": "images/agent headshots/viper.png", // Riot Games, 2026
         "kd": 1.04,
         "win": 49.4,
         "pick": 1.3,
@@ -451,7 +451,7 @@ const agentData = [
     },
     {
         "name": "Veto",
-        "image": "images/agent headshots/veto.png",
+        "image": "images/agent headshots/veto.png", // Riot Games, 2026
         "kd": 1.06,
         "win": 48.9,
         "pick": 0.5,
@@ -461,7 +461,7 @@ const agentData = [
     },
     {
         "name": "Chamber",
-        "image": "images/agent headshots/chamber.png",
+        "image": "images/agent headshots/chamber.png", // Riot Games, 2026
         "kd": 1.12,
         "win": 49.2,
         "pick": 10.7,
@@ -471,7 +471,7 @@ const agentData = [
     },
     {
         "name": "Reyna",
-        "image": "images/agent headshots/reyna.png",
+        "image": "images/agent headshots/reyna.png", // Riot Games, 2026
         "kd": 1.08,
         "win": 48.9,
         "pick": 7.6,
@@ -481,7 +481,7 @@ const agentData = [
     },
     {
         "name": "Tejo",
-        "image": "images/agent headshots/tejo.webp",
+        "image": "images/agent headshots/tejo.webp", // Riot Games, 2026
         "kd": 0.97,
         "win": 48.7,
         "pick": 1.4,
@@ -491,7 +491,7 @@ const agentData = [
     },
     {
         "name": "Miks",
-        "image": "images/agent headshots/miks.webp",
+        "image": "images/agent headshots/miks.webp", // Riot Games, 2026
         "kd": 0.97,
         "win": 48.3,
         "pick": 7.2,
@@ -501,7 +501,7 @@ const agentData = [
     },
     {
         "name": "Astra",
-        "image": "images/agent headshots/astra.png",
+        "image": "images/agent headshots/astra.png", // Riot Games, 2026
         "kd": 1.05,
         "win": 48.2,
         "pick": 1.5,
@@ -511,7 +511,7 @@ const agentData = [
     },
     {
         "name": "Waylay",
-        "image": "images/agent headshots/waylay.webp",
+        "image": "images/agent headshots/waylay.webp", // Riot Games, 2026
         "kd": 1.00,
         "win": 47.8,
         "pick": 2.4,
@@ -521,7 +521,7 @@ const agentData = [
     },
     {
         "name": "Breach",
-        "image": "images/agent headshots/breach.png",
+        "image": "images/agent headshots/breach.png", // Riot Games, 2026
         "kd": 0.93,
         "win": 47.9,
         "pick": 2.4,
@@ -531,7 +531,7 @@ const agentData = [
     },
     {
         "name": "Iso",
-        "image": "images/agent headshots/iso.webp",
+        "image": "images/agent headshots/iso.webp", // Riot Games, 2026
         "kd": 1.04,
         "win": 48.5,
         "pick": 1.2,
@@ -541,7 +541,7 @@ const agentData = [
     },
     {
         "name": "Yoru",
-        "image": "images/agent headshots/yoru.png",
+        "image": "images/agent headshots/yoru.png", // Riot Games, 2026
         "kd": 1.02,
         "win": 47.7,
         "pick": 0.6,
@@ -551,7 +551,7 @@ const agentData = [
     },
     {
         "name": "Omen",
-        "image": "images/agent headshots/omen.png",
+        "image": "images/agent headshots/omen.png", // Riot Games, 2026
         "kd": 1.00,
         "win": 46.9,
         "pick": 3.1,
@@ -561,7 +561,7 @@ const agentData = [
     },
     {
         "name": "Harbor",
-        "image": "images/agent headshots/harbor.webp",
+        "image": "images/agent headshots/harbor.webp", // Riot Games, 2026
         "kd": 0.96,
         "win": 46.9,
         "pick": 0.4,
@@ -571,7 +571,7 @@ const agentData = [
     },
     {
         "name": "KAY/O",
-        "image": "images/agent headshots/kayo.png",
+        "image": "images/agent headshots/kayo.png", // Riot Games, 2026
         "kd": 0.94,
         "win": 46.0,
         "pick": 0.8,
@@ -581,7 +581,7 @@ const agentData = [
     },
     {
         "name": "Clove",
-        "image": "images/agent headshots/clove.webp",
+        "image": "images/agent headshots/clove.webp", // Riot Games, 2026
         "kd": 0.96,
         "win": 51.5,
         "pick": 12.2,
@@ -591,7 +591,7 @@ const agentData = [
     },
     {
         "name": "Sage",
-        "image": "images/agent headshots/sage.png",
+        "image": "images/agent headshots/sage.png", // Riot Games, 2026
         "kd": 0.97,
         "win": 51.5,
         "pick": 2.9,
@@ -601,7 +601,7 @@ const agentData = [
     },
     {
         "name": "Phoenix",
-        "image": "images/agent headshots/phoenix.png",
+        "image": "images/agent headshots/phoenix.png", // Riot Games, 2026
         "kd": 1.07,
         "win": 51.0,
         "pick": 2.5,
@@ -611,7 +611,7 @@ const agentData = [
     },
     {
         "name": "Killjoy",
-        "image": "images/agent headshots/killjoy.png",
+        "image": "images/agent headshots/killjoy.png", // Riot Games, 2026
         "kd": 1.04,
         "win": 50.2,
         "pick": 1.6,
@@ -621,7 +621,7 @@ const agentData = [
     },
     {
         "name": "Brimstone",
-        "image": "images/agent headshots/brimstone.png",
+        "image": "images/agent headshots/brimstone.png", // Riot Games, 2026
         "kd": 0.99,
         "win": 48.6,
         "pick": 1.2,
@@ -631,7 +631,7 @@ const agentData = [
     },
     {
         "name": "Fade",
-        "image": "images/agent headshots/fade.png",
+        "image": "images/agent headshots/fade.png", // Riot Games, 2026
         "kd": 0.97,
         "win": 49.9,
         "pick": 4.8,
@@ -641,7 +641,7 @@ const agentData = [
     },
     {
         "name": "Sova",
-        "image": "images/agent headshots/sova.png",
+        "image": "images/agent headshots/sova.png", // Riot Games, 2026
         "kd": 0.99,
         "win": 50.0,
         "pick": 6.8,
@@ -651,7 +651,7 @@ const agentData = [
     },
     {
         "name": "Neon",
-        "image": "images/agent headshots/neon.png",
+        "image": "images/agent headshots/neon.png", // Riot Games, 2026
         "kd": 0.98,
         "win": 50.6,
         "pick": 3.7,
@@ -661,7 +661,7 @@ const agentData = [
     },
     {
         "name": "Cypher",
-        "image": "images/agent headshots/cypher.png",
+        "image": "images/agent headshots/cypher.png", // Riot Games, 2026
         "kd": 1.02,
         "win": 49.6,
         "pick": 3.3,
@@ -671,7 +671,7 @@ const agentData = [
     },
     {
         "name": "Raze",
-        "image": "images/agent headshots/raze.png",
+        "image": "images/agent headshots/raze.png", // Riot Games, 2026
         "kd": 1.03,
         "win": 49.9,
         "pick": 3.1,
@@ -681,7 +681,7 @@ const agentData = [
     },
     {
         "name": "Deadlock",
-        "image": "images/agent headshots/deadlock.webp",
+        "image": "images/agent headshots/deadlock.webp", // Riot Games, 2026
         "kd": 1.00,
         "win": 49.4,
         "pick": 1.7,
@@ -691,7 +691,7 @@ const agentData = [
     },
     {
         "name": "Vyse",
-        "image": "images/agent headshots/vyse.webp",
+        "image": "images/agent headshots/vyse.webp", // Riot Games, 2026
         "kd": 1.04,
         "win": 49.6,
         "pick": 1.1,
@@ -701,7 +701,7 @@ const agentData = [
     },
     {
         "name": "Skye",
-        "image": "images/agent headshots/skye.png",
+        "image": "images/agent headshots/skye.png", // Riot Games, 2026
         "kd": 0.96,
         "win": 49.7,
         "pick": 3.4,
@@ -711,7 +711,7 @@ const agentData = [
     },
     {
         "name": "Gekko",
-        "image": "images/agent headshots/gekko.webp",
+        "image": "images/agent headshots/gekko.webp", // Riot Games, 2026
         "kd": 0.93,
         "win": 49.1,
         "pick": 1.0,
@@ -721,7 +721,7 @@ const agentData = [
     },
     {
         "name": "Jett",
-        "image": "images/agent headshots/jett.png",
+        "image": "images/agent headshots/jett.png", // Riot Games, 2026
         "kd": 1.06,
         "win": 49.2,
         "pick": 12.5,
@@ -731,7 +731,7 @@ const agentData = [
     },
     {
         "name": "Viper",
-        "image": "images/agent headshots/viper.png",
+        "image": "images/agent headshots/viper.png", // Riot Games, 2026
         "kd": 1.04,
         "win": 49.1,
         "pick": 1.6,
@@ -741,7 +741,7 @@ const agentData = [
     },
     {
         "name": "Veto",
-        "image": "images/agent headshots/veto.png",
+        "image": "images/agent headshots/veto.png", // Riot Games, 2026
         "kd": 1.05,
         "win": 48.5,
         "pick": 0.8,
@@ -751,7 +751,7 @@ const agentData = [
     },
     {
         "name": "Chamber",
-        "image": "images/agent headshots/chamber.png",
+        "image": "images/agent headshots/chamber.png", // Riot Games, 2026
         "kd": 1.12,
         "win": 49.3,
         "pick": 10.1,
@@ -761,7 +761,7 @@ const agentData = [
     },
     {
         "name": "Reyna",
-        "image": "images/agent headshots/reyna.png",
+        "image": "images/agent headshots/reyna.png", // Riot Games, 2026
         "kd": 1.07,
         "win": 49.2,
         "pick": 7.9,
@@ -771,7 +771,7 @@ const agentData = [
     },
     {
         "name": "Tejo",
-        "image": "images/agent headshots/tejo.webp",
+        "image": "images/agent headshots/tejo.webp", // Riot Games, 2026
         "kd": 0.98,
         "win": 48.4,
         "pick": 1.0,
@@ -781,7 +781,7 @@ const agentData = [
     },
     {
         "name": "Astra",
-        "image": "images/agent headshots/astra.png",
+        "image": "images/agent headshots/astra.png", // Riot Games, 2026
         "kd": 1.04,
         "win": 46.7,
         "pick": 2.0,
@@ -791,7 +791,7 @@ const agentData = [
     },
     {
         "name": "Waylay",
-        "image": "images/agent headshots/waylay.webp",
+        "image": "images/agent headshots/waylay.webp", // Riot Games, 2026
         "kd": 0.99,
         "win": 48.1,
         "pick": 3.6,
@@ -801,7 +801,7 @@ const agentData = [
     },
     {
         "name": "Breach",
-        "image": "images/agent headshots/breach.png",
+        "image": "images/agent headshots/breach.png", // Riot Games, 2026
         "kd": 0.93,
         "win": 47.3,
         "pick": 1.2,
@@ -811,7 +811,7 @@ const agentData = [
     },
     {
         "name": "Iso",
-        "image": "images/agent headshots/iso.webp",
+        "image": "images/agent headshots/iso.webp", // Riot Games, 2026
         "kd": 1.04,
         "win": 48.7,
         "pick": 1.3,
@@ -821,7 +821,7 @@ const agentData = [
     },
     {
         "name": "Yoru",
-        "image": "images/agent headshots/yoru.png",
+        "image": "images/agent headshots/yoru.png", // Riot Games, 2026
         "kd": 1.03,
         "win": 48.3,
         "pick": 4.2,
@@ -831,7 +831,7 @@ const agentData = [
     },
     {
         "name": "Omen",
-        "image": "images/agent headshots/omen.png",
+        "image": "images/agent headshots/omen.png", // Riot Games, 2026
         "kd": 0.99,
         "win": 45.5,
         "pick": 3.5,
@@ -841,7 +841,7 @@ const agentData = [
     },
     {
         "name": "Harbor",
-        "image": "images/agent headshots/harbor.webp",
+        "image": "images/agent headshots/harbor.webp", // Riot Games, 2026
         "kd": 0.95,
         "win": 45.4,
         "pick": 0.4,
@@ -851,7 +851,7 @@ const agentData = [
     },
     {
         "name": "KAY/O",
-        "image": "images/agent headshots/kayo.png",
+        "image": "images/agent headshots/kayo.png", // Riot Games, 2026
         "kd": 0.94,
         "win": 45.7,
         "pick": 0.9,

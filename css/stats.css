@@ -191,7 +191,7 @@ body {
    HERO RESPONSIVE
 ========================= */
 
-@media (max-width: 768px) {
+@media (max-width: 480px) {
 
     .stats-hero h1 {
         font-size: 42px;
