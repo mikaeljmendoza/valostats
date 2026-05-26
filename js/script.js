@@ -108,7 +108,6 @@ function renderTable() {
             <img src="${agent.image}" alt="${agent.name}">
             <span>${agent.name}</span>
         </div>
-
         <span>${formatNumber(agent.win, 1)}%</span>
         <span>${formatNumber(agent.pick, 1)}%</span>
         <span>${formatNumber(agent.kd, 2)}</span>

@@ -5,6 +5,24 @@
     padding: 40px 20px;
 }
 
+.agents-hero {
+    text-align: center;
+    padding: 30px 20px 30px;
+    color: #fff;
+}
+
+.agents-hero h1 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+.agents-hero p {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
 /* HEADER */
 .agents-header {
     display: flex;
@@ -29,6 +47,7 @@
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
+    font-weight: 600;
 }
 
 .role-btn {
@@ -41,12 +60,17 @@
     transition: 0.2s;
 }
 
+.role-btn.active {
+    background: #fd2537;
+    color: white;
+}
+
 .role-btn:hover {
     background: #fd2537;
     color: white;
 }
 
-/* GRID — THIS IS THE MAIN FIX */
+/* GRID */
 .agents-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
@@ -55,6 +79,7 @@
 
 /* AGENT CARD (BIG IMAGE TILE) */
 .agent-card {
+    cursor: pointer;
     position: relative;
     height: 320px;              
     border-radius: 18px;
@@ -66,6 +91,7 @@
 
 .agent-card:hover {
     transform: translateY(-5px);
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.25);
 }
 
 /* IMAGE fills entire tile */

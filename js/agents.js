@@ -1,39 +1,57 @@
-const searchInput = document.getElementById("searchInput");
+const cards = document.querySelectorAll(".agent-card");
 const roleButtons = document.querySelectorAll(".role-btn");
-const agents = document.querySelectorAll(".agent-card");
+const searchInput = document.getElementById("searchInput");
 
-let selectedRole = "All";
+let activeRole = "All";
 
-// SEARCH FUNCTION
+/* -----------------------------
+   FILTER FUNCTION
+------------------------------*/
 function filterAgents() {
     const searchValue = searchInput.value.toLowerCase();
 
-    agents.forEach(agent => {
-        const name = agent.dataset.name.toLowerCase();
-        const role = agent.dataset.role;
+    cards.forEach(card => {
+        const name = card.dataset.name.toLowerCase();
+        const role = card.dataset.role;
 
+        const matchesRole = activeRole === "All" || role === activeRole;
         const matchesSearch = name.includes(searchValue);
-        const matchesRole = selectedRole === "All" || role === selectedRole;
 
-        if (matchesSearch && matchesRole) {
-            agent.style.display = "block";
+        if (matchesRole && matchesSearch) {
+            card.style.display = "block";
         } else {
-            agent.style.display = "none";
+            card.style.display = "none";
         }
     });
 }
 
-// SEARCH INPUT
-searchInput.addEventListener("input", filterAgents);
-
-// ROLE FILTER BUTTONS
+/* -----------------------------
+   ROLE FILTER BUTTONS
+------------------------------*/
 roleButtons.forEach(btn => {
     btn.addEventListener("click", () => {
 
         roleButtons.forEach(b => b.classList.remove("active"));
         btn.classList.add("active");
 
-        selectedRole = btn.dataset.role;
+        activeRole = btn.dataset.role;
         filterAgents();
+    });
+});
+
+/* -----------------------------
+   SEARCH INPUT
+------------------------------*/
+searchInput.addEventListener("input", filterAgents);
+
+/* -----------------------------
+   CLICK → AGENT PROFILE PAGE
+------------------------------*/
+cards.forEach(card => {
+    card.addEventListener("click", () => {
+        const agentName = card.dataset.name;
+
+        // send to a profile page with query string
+        window.location.href = `agent.html?agent=${encodeURIComponent(agentName)}`;
     });
 });

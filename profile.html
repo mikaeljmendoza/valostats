@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agent Profile - ValStats</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/profile.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<div class="navbar">
+    <div class="inner-navbar">
+
+        <div class="logo">
+            <a href="index.html">
+                <img src="images/valstats.png" alt="ValStats Logo">
+            </a>
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="stats.html">Stats</a></li>
+            <li><a href="agents.html">Agents</a></li>
+            <li><a href="news.html">News</a></li>
+        </ul>
+
+    </div>
+</div>
+
+<main class="page-content">
+
+    <!-- HERO -->
+    <section class="profile-hero">
+
+        <!-- LEFT -->
+        <div class="hero-left">
+            <img id="agentImage" src="" alt="Agent Image">
+        </div>
+
+        <!-- RIGHT -->
+        <div class="hero-right">
+
+            <!-- TITLE + SWITCHER -->
+            <div class="title-row">
+
+                <div class="profile-info">
+                    <h1 id="agentName">Loading...</h1>
+                    <p id="agentRole">Loading...</p>
+                </div>
+
+                <!-- AGENT SWITCHER -->
+                <div class="agent-switcher-wrapper">
+
+                    <!-- ROLE FILTERS -->
+                    <div class="role-filters">
+                        <button class="role-btn active" data-role="Duelist">
+                            Duelist
+                        </button>
+
+                        <button class="role-btn" data-role="Initiator">
+                            Initiator
+                        </button>
+
+                        <button class="role-btn" data-role="Controller">
+                            Controller
+                        </button>
+
+                        <button class="role-btn" data-role="Sentinel">
+                            Sentinel
+                        </button>
+                    </div>
+
+                    <!-- AGENT SELECTOR -->
+                    <div id="agentSwitcher" class="agent-switcher"></div>
+
+                </div>
+
+            </div>
+
+            <!-- DIVIDER -->
+            <hr class="section-divider">
+
+            <!-- AGENT DESCRIPTION -->
+            <div class="agent-description">
+                <p>
+                    Explore each agent’s abilities, utility, and gameplay
+                    mechanics through interactive previews and videos.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ABILITIES -->
+    <section class="abilities-section">
+
+        <!-- LEFT -->
+        <div class="abilities-left">
+
+            <div class="panel">
+
+                <h2>Abilities</h2>
+
+                <div id="abilitiesGrid" class="abilities-grid"></div>
+
+            </div>
+
+        </div>
+
+        <!-- RIGHT -->
+        <div class="ability-viewer panel">
+
+            <h2 id="modalTitle">Ability</h2>
+
+            <p id="modalDesc">
+                Description
+            </p>
+
+            <video
+                id="abilityVideo"
+                controls
+                autoplay
+                muted
+                preload="auto">
+            </video>
+
+        </div>
+
+    </section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="footer">
+    <div class="footer-content">
+        <img
+            src="images/valstats.png"
+            alt="ValStats Logo"
+            class="footer-logo"
+        >
+        <p>
+            Website created for DECO1400 by Michael Mendoza
+        </p>
+
+        <p>
+            © 2026 ValStats. All rights reserved.
+        </p>
+    </div>
+</footer>
+
+<script src="js/profiledata.js"></script>
+<script src="js/profile.js"></script>
+
+</body>
+</html>

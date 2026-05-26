@@ -1,0 +1,330 @@
+/* PAGE */
+.page-content {
+    padding-top: 100px;
+    color: white;
+    font-family: Inter, sans-serif;
+}
+
+/* HERO */
+.profile-hero {
+    max-width: 1400px;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 60px;
+
+    padding: 50px 40px 30px;
+}
+
+/* HERO LEFT */
+.hero-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-left img {
+    width: 220px;
+    border-radius: 16px;
+
+    box-shadow: 0 10px 30px rgba(255,0,0,0.25);
+}
+
+/* HERO RIGHT */
+.hero-right {
+    flex: 1;
+    max-width: 900px;
+}
+
+/* TITLE ROW */
+.title-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    gap: 40px;
+}
+
+/* INFO */
+.profile-info h1 {
+    font-size: 60px;
+    margin: 0;
+    font-weight: 700;
+}
+
+.profile-info p {
+    font-size: 18px;
+    opacity: 0.7;
+    margin-top: 10px;
+}
+
+/* DIVIDER */
+.section-divider {
+    border: none;
+    height: 1px;
+    background: rgba(255,255,255,0.1);
+
+    margin: 30px 0;
+}
+
+/* DESCRIPTION */
+.agent-description p {
+    font-size: 16px;
+    line-height: 1.7;
+    opacity: 0.8;
+
+    max-width: 700px;
+}
+
+/* SWITCHER */
+.agent-switcher-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    align-items: flex-end;
+}
+
+/* ROLE FILTERS */
+.role-filters {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.role-btn {
+    background: #1a1a1a;
+    border: none;
+
+    color: white;
+
+    padding: 9px 16px;
+
+    border-radius: 10px;
+
+    cursor: pointer;
+    transition: 0.2s ease;
+
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+}
+
+.role-btn:hover {
+    background: #fd2537;
+}
+
+.role-btn.active {
+    background: #fd2537;
+}
+
+/* AGENT SWITCHER */
+.agent-switcher {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+
+    justify-content: flex-end;
+}
+
+.agent-mini {
+    width: 65px;
+
+    cursor: pointer;
+
+    transition: 0.2s ease;
+}
+
+.agent-mini:hover {
+    transform: scale(1.06);
+}
+
+.agent-mini img {
+    width: 100%;
+    border-radius: 12px;
+
+    border: 2px solid transparent;
+}
+
+.agent-mini.active img {
+    border-color: #fd2537;
+}
+
+/* ABILITIES */
+.abilities-section {
+    max-width: 1400px;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    gap: 40px;
+
+    padding: 20px 40px 80px;
+}
+
+/* LEFT */
+.abilities-left {
+    width: 35%;
+}
+
+/* PANEL */
+.panel {
+    background: #111;
+    border-radius: 18px;
+
+    padding: 26px;
+}
+
+/* ABILITY GRID */
+.abilities-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* ABILITY CARD */
+/* ABILITY CARD */
+.ability-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 110px;
+    min-height: 120px;
+
+    background: #151515;
+    border-radius: 14px;
+
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.ability-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0 0 2px #fd2537;
+}
+
+.ability-card.active {
+    box-shadow: 0 0 0 2px #fd2537;
+}
+
+/* ICON + LETTER */
+.ability-icon-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    gap: 10px;
+}
+
+.ability-icon-wrapper img {
+    width: 64px;
+    height: 64px;
+    object-fit: contain;
+}
+
+/* LETTER */
+.ability-letter {
+    font-size: 13px;
+    font-weight: 700;
+    opacity: 0.75;
+    letter-spacing: 2px;
+}
+
+/* CONTENT */
+.ability-content {
+    display: flex;
+    align-items: center;
+}
+
+.ability-content strong {
+    font-size: 16px;
+}
+
+.ability-content p {
+    margin-top: 6px;
+
+    font-size: 14px;
+    opacity: 0.7;
+}
+
+/* LETTER LABEL */
+.ability-letter {
+    min-width: 38px;
+    height: 38px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 10px;
+
+    font-weight: 700;
+    font-size: 14px;
+
+    flex-shrink: 0;
+}
+
+/* VIEWER */
+.ability-viewer {
+    width: 65%;
+}
+
+.ability-viewer h2 {
+    margin-top: 0;
+    font-size: 32px;
+}
+
+.ability-viewer p {
+    margin-bottom: 20px;
+
+    opacity: 0.75;
+    line-height: 1.6;
+}
+
+/* VIDEO */
+.ability-viewer video {
+    width: 100%;
+
+    border-radius: 16px;
+
+    background: black;
+}
+
+/* RESPONSIVE */
+@media (max-width: 1100px) {
+
+    .profile-hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .title-row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .agent-switcher-wrapper {
+        align-items: center;
+    }
+
+    .agent-switcher {
+        justify-content: center;
+    }
+
+    .abilities-section {
+        flex-direction: column;
+    }
+
+    .abilities-left,
+    .ability-viewer {
+        width: 100%;
+    }
+}

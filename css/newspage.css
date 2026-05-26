@@ -20,6 +20,10 @@
     gap: 30px;
 }
 
+.patch-grid a {
+    text-decoration: none;
+}
+
 /* TILE */
 .patch-tile {
     background-color: #1c1c1c;
@@ -31,6 +35,15 @@
         box-shadow 0.2s ease;
 
     cursor: pointer;
+
+    display: flex;
+    flex-direction: column;
+
+    text-decoration: none;
+    color: inherit;
+
+    width: 100%;
+    height: 100%;
 }
 
 .patch-tile:hover {
