@@ -1,4 +1,5 @@
 // All agent ability videos are taken from Blitz website (2026)
+// All ability icon pictures are taken from Riot Games (2026)
 
 const agents = [
 {
